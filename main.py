@@ -1,11 +1,18 @@
-# mutable sequence
-days = ["Mon", "Tue", "Wed", "Thur", "Fri"]
+# immutable sequence
+# tuple
+# save not only string but also many data types
+days = ("Mon", "Tue", "Wed", "Thur", "Fri")
 
-print("Mon" in days)
-print(days[3])
-print(len(days))
+print(type(days))
 
-print(days)
-days.append("Sat")
-days.reverse()
-print(days)
+# dictionary
+# save even list and tuple
+oshmos = {
+    'name': 'oshmos',
+    'age': 24,
+    'korean': True,
+    'fav_food': ['chicken']
+}
+print(oshmos)
+oshmos['handsome'] = True
+print(oshmos)
