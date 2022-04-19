@@ -1,14 +1,13 @@
-# return
-# return a value
-# quit the function
-def p_plus(a, b):
-    print(a + b)
-
-def r_plus(a, b):
+def plus(a, b):
     return a + b
-    print(a + b) # do not print
+    
+result = plus(b=30, a=1)
+print(result)
 
-p_result = p_plus(2, 3)
-r_result = r_plus(2, 3)
+def say_hello(name, age):
+    return f'Hello {name}. You are {age} years old'
 
-print(p_result, r_result)
+hello = say_hello(24, 'oshmos')
+print(hello)
+hello = say_hello(name='oshmos', age=24)
+print(hello)
