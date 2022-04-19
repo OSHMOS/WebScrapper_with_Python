@@ -1,7 +1,6 @@
 # functions
-print(len("aslfj;klasdjfljdsa"))
+def say_hello():
+    print('hello')
 
-age = "18"
-print(type(age))
-n_age = int(age)
-print(type(n_age))
+# () is functions' button
+say_hello()
