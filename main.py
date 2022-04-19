@@ -1,12 +1,14 @@
-# functions
-def say_hello(who = 'anonymous'):
-    print('hello', who)
-
-# () is functions' button
-say_hello()
-say_hello('oshmos')
-
-def plus(a, b):
+# return
+# return a value
+# quit the function
+def p_plus(a, b):
     print(a + b)
 
-plus(2, 5)
+def r_plus(a, b):
+    return a + b
+    print(a + b) # do not print
+
+p_result = p_plus(2, 3)
+r_result = r_plus(2, 3)
+
+print(p_result, r_result)
