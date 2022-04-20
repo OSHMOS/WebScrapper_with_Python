@@ -1,12 +1,11 @@
-def age_check(age):
-    print(f'you are {age}')
-    if age < 18:
-        print("you can't drink")
-    elif age == 18:
-        print('you are new to this!')
-    elif age > 20 and age <25:
-        print('you are still kind of young')
-    else:
-        print('enjoy your drink')
+# for
+days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri')
 
-age_check(24)
+for day in days:
+    if day is 'Wed':
+        break
+    else:
+        print(day)
+
+for letter in 'oshmos':
+    print(letter)
