@@ -1,11 +1,14 @@
-# for
-days = ('Mon', 'Tue', 'Wed', 'Thu', 'Fri')
+# import
+# import math
 
-for day in days:
-    if day is 'Wed':
-        break
-    else:
-        print(day)
+# print(math.ceil(1.2))
+# print(math.fabs(-1.2))
 
-for letter in 'oshmos':
-    print(letter)
+# from math import ceil, fabs
+
+# print(ceil(1.2))
+# print(fabs(-1.2))
+
+from calculator import plus as sum
+
+print(sum(1, 2))
